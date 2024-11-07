@@ -1,6 +1,7 @@
 "use strict";
 class carCompany {
     constructor(name, originCountry, establishedYear) {
+        this.modelPrice = 0;
         this.name = name;
         this.originCountry = originCountry;
         this.establishedYear = establishedYear;
